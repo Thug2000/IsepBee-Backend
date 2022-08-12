@@ -7,7 +7,7 @@ export class PerformanceService {
 
     const array = [];
 
-    for (let i = 0; i < 32; i++) {
+    for (let i = 0; i < 31; i++) {
       var future = new Date();
       future.setDate(future.getDate() - (32 - i));
       var dict = {
